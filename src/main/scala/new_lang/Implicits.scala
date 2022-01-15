@@ -43,3 +43,10 @@ object Implicits extends App {
   println(o3)
 
 }
+
+/** serialize(a: A): String deserialize(s: String): Option[A]
+  *
+  *   - f: HttpRequest => HttpResponse
+  *   - server: Stream[HttpRequest]
+  *   - server.map(f)
+  */
